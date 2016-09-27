@@ -1,0 +1,27 @@
+{
+  "name": "barbershop",
+  "version": "1.0.0",
+  "description": "CUNY Tech Prep Full Stack Webapp",
+  "main": "node app.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon -L app.js",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gnwankwo/barberShop.git"
+  },
+  "author": "George Nwankwo, Ramanpreet Chand, Daniella Willocks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnwankwo/barberShop/issues"
+  },
+  "homepage": "https://github.com/gnwankwo/barberShop#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "express": "^4.14.0",
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.2"
+  }
+}
