@@ -1,19 +1,16 @@
 var express = require('express');
 var router = express.Router();
 
-// middleware that is specific to this router
+// Middleware that is specific to this router
 // It applies to all routes defined in this controller
 router.use(function timeLog(req, res, next){
-	console.log('Schedules Controller :: Time: ', Date.now());
+	console.log('Home Page :: Time: ', Date.now());
 	next();
 });
 
-// define the root schedules route
+// define the root index route
 router.get('/', function(req, res){
-	res.send('Schedules home page');
+	res.send('Home Page');
 });
-
-// define the specific schedule route
-
 
 module.exports = router;
