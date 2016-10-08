@@ -13,9 +13,9 @@ router.get('/', function(req, res){
 	res.send('Barbershops home page');
 });
 
-// define the specific Client route
-router.get('/:barbershop-title', function(req, res){
-	res.send('This is barbershop: ' + req.params.barbershop-title);
+// define the specific Barbershop route
+router.get('/:barbershopName', function(req, res){
+	res.send('This is barbershop: ' + req.params.barbershopName);
 });
 
 module.exports = router;
