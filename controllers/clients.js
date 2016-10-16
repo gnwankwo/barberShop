@@ -14,8 +14,8 @@ router.get('/', function(req, res){
 });
 
 // define the specific Client route
-router.get('/:client', function(req, res){
-	res.send('This is client: ' + req.params.client);
+router.get('/:client_id', function(req, res){
+	res.send('This is client: ' + req.params.client_id);
 });
 
 module.exports = router;
