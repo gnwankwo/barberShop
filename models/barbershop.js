@@ -20,4 +20,8 @@ module.exports = function(sequelize, DataTypes) {
     }
   });
   return Barbershop;
+<<<<<<< HEAD
 };`
+=======
+};`
+>>>>>>> master
